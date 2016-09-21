@@ -1,0 +1,61 @@
+#create_account {
+    position: absolute;
+    top: 450px;
+    left: 870px;
+    text-decoration: none;
+    font-size: 1.3em;
+    
+}
+
+a {
+    display: block;
+}
+
+
+input {
+    display: block;
+}
+
+
+#username {
+    
+}
+
+#password {
+    
+}
+
+#re-type {
+    
+}
+
+
+#main_page_button {
+    margin-top: 20px;
+}
+
+body {
+    background-image: url('img/create_account.jpg');
+    background-size: cover;
+}
+
+#create_account_box{
+    position: absolute;
+    top: 50px;
+    left:800px;
+    border: 1px solid black;
+    padding: 50px;
+    box-shadow: 0px 0px 30px #888888;
+}
+
+#main_page_button{
+    position: absolute;
+    top: 215px;
+    left: 145px;
+    
+}
+
+h2 {
+    margin-left: -10px
+    
+}

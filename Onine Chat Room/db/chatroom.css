@@ -1,0 +1,174 @@
+body {
+    background-image: url("img/chatroom.jpg");
+}
+#chatroom {
+    position: absolute;
+    width: 30%;
+    height: 600px;
+    border: 5px solid red;
+    top: 100px;
+    left: 400px;
+}
+
+#chatwith{
+    margin-left:10px;
+    margin-top:10px;
+}
+
+#chatroom_console {
+    position: absolute;
+    width: 97%;
+    height: 70%;
+    border:5px solid yellowgreen;
+    top: 45px;
+    left: 3px;
+    overflow: auto;
+}
+
+#data_input {
+    position: absolute;
+    border:2px solid green;
+    width: 98%;
+    height: 17%;
+    left: 3px;
+    top: 485px;
+}
+#MessageArea {
+    margin-top: 2px;
+    width: 83%;
+    height: 120px;
+}
+
+#submit_button {
+    position: absolute;
+    top: 6px;
+    left: 468px;
+    width: 90px;
+    height: 90px;
+}
+
+input {
+    display: inline-block;
+}
+
+#bb {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width:80%;
+    height: 85px;
+}
+
+
+
+
+
+.friend_message {
+   display: inline-block;
+   text-align: right;
+   margin: 10px;
+   margin-left: 1px;
+   padding: 10px;
+   background-color: greenyellow;  
+   border-radius: 10px;
+}
+
+.usernamemessage {
+   display: inline-block;
+   margin: 10px;
+   margin-left: 1px;
+   padding: 10px;
+   background-color: lightgray;  
+   border-radius: 10px;
+}
+
+
+
+
+
+#go_back_to_friend_list {
+    position: absolute;
+    top: 75px;
+    left: 760px;
+    background-color: #c3c6c0;
+    width: 150px;
+    height: 25px;
+    border-radius: 3px;
+    padding-top: 1px;
+    text-align: center;
+}
+
+#go_logged_out {
+    position: absolute;
+    top: 75px;
+    left: 910px;
+    background-color: #92e9ff;
+    width: 75px;
+    height: 25px;
+    border-radius: 3px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+
+#go_back_to_friend_list_button {
+    text-decoration: none;
+    
+}
+
+#go_logged_out_button {
+    text-decoration: none;
+    
+}
+
+
+#go_logged_out_1 {
+    position: absolute;
+    top: 75px;
+    left: 1000px;
+    background-color: #92e9ff;
+    width: 75px;
+    height: 25px;
+    border-radius: 3px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+#go_logged_out_button_1 {
+    text-decoration: none;
+    
+}
+
+
+#track_chat_history {
+    position: absolute;
+    top: 75px;
+    left: 400px;
+    background-color: #c3c6c0;
+    width: 150px;
+    height: 25px;
+    border-radius: 3px;
+    padding-top: 1px;
+    text-align: center;
+}
+#track_chat_history_button {
+    text-decoration: none;
+    
+}
+
+
+#clear_chat_console {
+    position: absolute;
+    top: 75px;
+    left: 550px;
+    background-color: #c3c6c0;
+    width: 150px;
+    height: 25px;
+    border-radius: 3px;
+    padding-top: 1px;
+    text-align: center;
+}
+#clear_chat_console_button {
+    text-decoration: none;
+    
+}
